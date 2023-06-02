@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../proycto-bootstrap/css/styles.css">
+    <title>Pre entrega 3</title>
+</head>
+<body>
+    <style>
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 15%;}
+
+.img-thumbnail {
+    max-width: 100%;   
+  }
+
+
+    </style>
+    <header class="navbar navbar-expand-lg bg-black bg-primary ">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./img/logo1.JPG" alt="logo" class="w-100"></a>
+          <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <nav class="collapse navbar-collapse " id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white ">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white">Imagenes</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </nav>
+        </div>
+    </header>
+    <main>
+        <div id="carouselvideo" class="carousel slide position-relative">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <video src="./img/movie finall.mp4" class="object-fit-contain" autoplay muted></video>
+              </div>
+              <div class="carousel-item">
+                <video src="./img/movie finall.mp4" class="object-fit-contain" autoplay muted></video>
+              </div>
+            </div>
+            <div class="card position-absolute" style="width: 18rem; top: 50%; left: 5%;">
+                <div class="card-body bg-black">
+                  <h5 class="card-title">Evento</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">tech house</h6>
+                  <p class="card-text">Live desde Buenos Aires, Argentina.</p>
+                  <a href="#" class="card-link">Ver todos</a>
+                  <a href="#" class="card-link">Proximos eventos</a>
+                </div>
+              </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselvideo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselvideo" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            
+          </div>
+
+        
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
