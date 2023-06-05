@@ -4,15 +4,38 @@
   }  
 
   .eventos-titulo{
-    margin-bottom: 20px;
+    margin-bottom: 5%;
   }
   .tienda-titulo {
-    margin-bottom: 20px; /* Ajusta el valor según el espacio deseado */
+    margin-bottom: 5%; /* Ajusta el valor según el espacio deseado */
   }
-  .imagenes-titulo{
-    margin-bottom: 50px;
-    margin-top: 20px;
+  .sets-titulo{
+    margin-bottom: 5%;
+    margin-top: 2%;
   }
   .navbar-toggler{
    height: 10%;
+  }
+
+  /* FOOTER */
+  .contenedor-enlaces{
+    max-width: 100%;
+    display: flex;
+    text-align: start;
+    justify-content: space-between;
+    gap: 10%;
+  }
+  article h3{
+    color: blue;
+    text-decoration: underline;
+  }
+  a{
+    color: white;
+  }
+  ul{
+    list-style: none;
+  }
+  footer img{
+    width: 20%;
+    height: 10%;
   }
