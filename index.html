@@ -9,48 +9,40 @@
     <title>Pre entrega 3</title>
 </head>
 <body>
-    <>
-.navbar-brand {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 15%;}
-
-.img-thumbnail {
-    max-width: 100%;   
-  }
-
-
-    
-    <header class="navbar navbar-expand-lg bg-black bg-primary ">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="./img/logo1.JPG" alt="logo" class="w-100"></a>
-          <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <nav class="collapse navbar-collapse " id="navbarTogglerDemo02">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Eventos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white ">Tienda</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white">Imagenes</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </nav>
-        </div>
-    </header>
+  <header class="navbar navbar-expand-lg bg-black row justify-content">
+    <div class="container">
+      <div class="d-flex">
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo1.JPG" alt="logo" class="w-25">
+        </a>
+        <button class="navbar-toggler bg-light order-lg-last ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <nav class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Eventos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white">Tienda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white">Imagenes</a>
+          </li>
+        </ul>
+      </nav>
+      <form class="d-none  d-sm-block d-sm-none d-md-block" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </header>
+  
+  
     <main>
         <div id="carouselvideo" class="carousel slide position-relative">
             <div class="carousel-inner">
@@ -63,11 +55,11 @@
             </div>
             <div class="card position-absolute" style="width: 18rem; top: 50%; left: 5%;">
                 <div class="card-body bg-black">
-                  <h5 class="card-title">Evento</h5>
-                  <h6 class="card-subtitle mb-2 text-body-secondary">tech house</h6>
-                  <p class="card-text">Live desde Buenos Aires, Argentina.</p>
-                  <a href="#" class="card-link">Ver todos</a>
-                  <a href="#" class="card-link">Proximos eventos</a>
+                  <h2 class="card-title text-white bg-dark">Evento</h2>
+                  <h3 class="card-subtitle mb-2 text-white bg-dark">tech house</h3>
+                  <p class="card-text text-white bg-dark">Live desde Buenos Aires, Argentina.</p>
+                  <a href="../proycto-bootstrap/pages/eventos.html" class="btn btn-primary btn-sm ">Ver todos</a>
+                  <a href="../proycto-bootstrap/pages/eventos.html" class="btn btn-primary btn-sm">Proximos eventos</a>
                 </div>
               </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselvideo" data-bs-slide="prev">
@@ -81,7 +73,68 @@
             
           </div>
 
-        
+          <section class="seccion-eventos">
+            <div class="container">
+              <div class="eventos-titulo row">
+                <div class="col-8">
+                  <h2>Próximos Eventos</h2>
+                </div>
+                <div class="col-4"> 
+                  <a href="./pages/eventos.html"><p>Ver Todos</p></a>
+                </div>
+              </div>
+              <div class="seccion-articulos row justify-content-center">
+                <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-3 mb-4">
+                  <article>
+                    <div class="card" style="width: 100%;">
+                      <img src="../proycto-bootstrap/img/flyer1.JPG" class="card-img-top" alt="flyer 1">
+                      <div class="card-body">
+                        <span>faltan 30 días</span>
+                        <h3>Hellsground x Moscú</h3>
+                        <p class="card-text">Moscú Terrace | 22 de abril | 23hs a 7hs (UTC-3)</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-3 mb-4">
+                  <article>
+                    <div class="card" style="width: 100%;">
+                      <img src="../proycto-bootstrap/img/flyer2.png" class="card-img-top" alt="flyer 2">
+                      <div class="card-body">
+                        <span>faltan 30 días</span>
+                        <h3>Hellsground Cheka & Friends Edition</h3>
+                        <p class="card-text">Cheka, Zona oeste | 29 de abril | 23hs a 7hs (UTC-3)</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-3 mb-4">
+                  <article>
+                    <div class="card" style="width: 100%;">
+                      <img src="../proycto-bootstrap/img/flyer3.png" class="card-img-top" alt="flyer 3">
+                      <div class="card-body">
+                        <span>faltan 30 días</span>
+                        <h3>Hellsground x Moscú</h3>
+                        <p class="card-text">Moscú Terrace | 22 de abril | 23hs a 7hs (UTC-3)</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-3 mb-4">
+                  <article>
+                    <div class="card" style="width: 100%;">
+                      <img src="../proycto-bootstrap/img/flyer4.png" class="card-img-top" alt="flyer 4">
+                      <div class="card-body">
+                        <span>falta 60 días</span>
+                        <h3>Hellsground Cheka & Club la Octava</h3>
+                        <p class="card-text">Palermo, Buenos Aires | 16 de octubre | 23hs a 7hs (UTC-3)</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
