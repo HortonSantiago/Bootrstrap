@@ -1,0 +1,18 @@
+
+  .btn-custom {
+    height: auto; /* Ajusta la altura según tus necesidades */
+  }  
+
+  .eventos-titulo{
+    margin-bottom: 20px;
+  }
+  .tienda-titulo {
+    margin-bottom: 20px; /* Ajusta el valor según el espacio deseado */
+  }
+  .imagenes-titulo{
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+  .navbar-toggler{
+   height: 10%;
+  }
