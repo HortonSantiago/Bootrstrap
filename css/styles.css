@@ -1,5 +1,5 @@
 
- /*Index  */
+ /*INDEX  */
  .btn-custom {
     height: auto;
   }  
@@ -17,6 +17,8 @@
   .navbar-toggler{
    height: 10%;
   }
+
+
 
   /* FOOTER */
   .contenedor-enlaces{
@@ -64,3 +66,7 @@ main section{
   padding: 2%;
   box-sizing: border-box;
   }
+
+.sets-main div{
+  
+}
