@@ -1,13 +1,14 @@
 
-  .btn-custom {
-    height: auto; /* Ajusta la altura según tus necesidades */
+ /*INDEX  */
+ .btn-custom {
+    height: auto;
   }  
 
   .eventos-titulo{
     margin-bottom: 5%;
   }
   .tienda-titulo {
-    margin-bottom: 5%; /* Ajusta el valor según el espacio deseado */
+    margin-bottom: 5%;
   }
   .sets-titulo{
     margin-bottom: 5%;
@@ -16,6 +17,8 @@
   .navbar-toggler{
    height: 10%;
   }
+
+
 
   /* FOOTER */
   .contenedor-enlaces{
@@ -39,3 +42,31 @@
     width: 20%;
     height: 10%;
   }
+
+/* Seccion CUENTA */
+
+.cuenta-main{
+  
+  height: 100%;
+  background-image: url(../img/foto4.JPG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding: 2%;
+  box-sizing: border-box;
+  
+  }
+main section{
+  height: 100%;
+}
+.container-sm{
+  border: 5px solid white;
+  width: 40%;
+  padding: 2%;
+  box-sizing: border-box;
+  }
+
+.sets-main div{
+  
+}
