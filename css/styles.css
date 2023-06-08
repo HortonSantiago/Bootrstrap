@@ -67,6 +67,7 @@ main section{
   box-sizing: border-box;
   }
 
-.sets-main div{
-  
+a{
+  text-decoration: none;
+
 }
