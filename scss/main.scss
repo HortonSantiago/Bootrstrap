@@ -1,4 +1,22 @@
+$theme-colors: (
+  "primary": violet,
+);
+$transition-collapse: height 0.1s ease;
+$navbar-toggler-font-size: 1rem;
+$navbar-toggler-transition: box-shadow 1s ease;
+
+@font-face {
+    font-family: "Sigmar";
+    src: url("../fonts/Sigmar-Regular.ttf");
+    
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/RobotoSerif-VariableFont_GRAD\,opsz\,wdth\,wght.ttf");
+}
+@import "../node_modules/bootstrap/scss/bootstrap";
 @import "base";
+
 
 
 @import "./components/button";
