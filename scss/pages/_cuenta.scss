@@ -18,4 +18,10 @@ main section{
     padding: 2%;
     box-sizing: border-box;
 }
-  
+
+.bg-black{
+    color: violet;
+    &:hover{
+        color: white;
+    }
+}

@@ -73,7 +73,11 @@ h2{
     font-family: "Roboto";
     font-size: 2rem;
     padding: 2%;
-    box-shadow:1px 1px 25px 2px  rgb(163, 46, 46) ;
+    color: white; 
+    &:hover{
+        color: black;
+        box-shadow:1px 1px 25px 2px violet ;
+    }
 }
 p{
     color: blue;
@@ -97,9 +101,13 @@ background-color: transparent;
     box-shadow:1px 1px 25px 2px  black ;
 }
 .btn{
-    background-color: aqua;
+    background-color: rgb(172, 20, 40);
     color:black;
     font-family: "Sigmar", sans-serif;
+    &:hover{
+        color: white;
+        background-color: black;
+    }
 }
 .nav-item{
     text-align: center;
